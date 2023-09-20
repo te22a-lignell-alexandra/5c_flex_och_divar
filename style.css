@@ -1,6 +1,8 @@
 
 #header{
     background-color: #35424a;
+    border-bottom: 3px solid #e8491d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h1{
@@ -8,10 +10,38 @@ h1{
     font-size: 1.6em;
 }
 
+h2{
+    color: orangered;
+    font-size: 1em;
+}
+
 #white{
     color:white;
 }
 
+.container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.branding{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.nav{
+    margin-left: 20%;
+    float: right;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
 #boxes{
     background-color: rgb(229, 227, 226);
 }
