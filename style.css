@@ -1,0 +1,21 @@
+
+#header{
+    background-color: #35424a;
+}
+
+h1{
+    color: orangered;
+    font-size: 1.6em;
+}
+
+#white{
+    color:white;
+}
+
+#boxes{
+    background-color: rgb(229, 227, 226);
+}
+
+#footer{
+    background-color: rgb(240, 146, 39);
+}
