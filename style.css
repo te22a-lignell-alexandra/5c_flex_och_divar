@@ -20,6 +20,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    /* tog den bilden som fanns länkad i classroom */
     background-image: url(./img/showcase\ \(1\).jpg);
     background-size: 100%, 100%;
     background-attachment: fixed;
@@ -31,9 +32,45 @@
 }
 
 .nyhetsbrev{
-    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #35424a;
+    border-bottom: 5px solid orangered;
+    color: white;
 }
 
+.logos{
+    background-color: rgb(255, 254, 240);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    gap: 50px;
+}
+
+#logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    max-height: 60%;
+    max-width: 50%;
+}
+
+#foot{
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
 /* 
 #header{
     background-color: #35424a;
