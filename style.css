@@ -1,6 +1,18 @@
 
+#header{
+    background-color: #35424a;
+    border-bottom: 5px solid orangered;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
 
-
+#header_ord{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
 
 /* 
 #header{
