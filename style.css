@@ -5,6 +5,7 @@
     color: white;
     text-align: center;
     padding-top: 5px;
+    font-size: 0.8em;
 }
 
 #header_ord{
@@ -12,6 +13,25 @@
     justify-content: center;
     flex-direction: row;
     gap: 20px;
+    font-size: 0.8em;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(./img/showcase\ \(1\).jpg);
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    border-bottom: 5px solid orangered;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.nyhetsbrev{
+    
 }
 
 /* 
